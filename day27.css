@@ -1,0 +1,30 @@
+img{
+    width: 300px;
+    border-radius: 30px;
+    background-color: chartreuse;
+    padding: 20px;
+}
+@media screen and (max-width: 150px) {
+    img{
+        background-color: brown;
+        transition: all ease-in-out 5s 2s;
+    }
+    img:hover{
+        width:200px;
+        background-color: aqua;
+        padding: 20px;
+        opacity: 0.5;
+    }
+}
+@media screen and(min-width:471px)and(max-width:780px){
+    p{
+        width:30%;
+        transition: all ease 2s 1s;
+        color: coral;
+    }
+    p:hover{
+        background-color: darkblue;
+        font-size: 30px;
+    }
+
+}
